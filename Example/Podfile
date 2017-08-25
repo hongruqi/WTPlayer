@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WTPlayer_Example' do
+  pod 'WTPlayer', :path => '../'
+
+  target 'WTPlayer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
